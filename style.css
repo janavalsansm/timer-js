@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/background\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+}
+.navbar{
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    background-color: rgba(255,255,255,0.5);
+    height: 50px; 
+    padding-top: 10px;
+    padding-right: 60px; 
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    
+}
+.navbar a:hover{
+    color: aqua;
+}
+.navbar button{
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 30px;
+    font-size: large;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+   
+}
+.cont1{
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    /* background-color: rgba(255, 255, 255, 0.228); */
+    text-align: center;
+    border-radius: 10px;
+}
+.launchtime{
+    display: flex;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.228);
+    height: 200px;
+    width: 450px;
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+.launchtime div{
+    flex-basis: 200px;
+}
+.launchtime div p{
+    font-size: 100px;
+    margin-top: -14px;
+}
+
